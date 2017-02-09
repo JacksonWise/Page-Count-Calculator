@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF9622371C22CF7B005CD703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9622361C22CF7B005CD703 /* AppDelegate.swift */; };
+		CF9622391C22CF7B005CD703 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9622381C22CF7B005CD703 /* ViewController.swift */; };
+		CF96223C1C22CF7B005CD703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF96223A1C22CF7B005CD703 /* Main.storyboard */; };
+		CF96223E1C22CF7B005CD703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF96223D1C22CF7B005CD703 /* Assets.xcassets */; };
+		CF9622411C22CF7B005CD703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF96223F1C22CF7B005CD703 /* LaunchScreen.storyboard */; };
+		CF96224C1C22CF7B005CD703 /* Page_Count_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF96224B1C22CF7B005CD703 /* Page_Count_CalculatorTests.swift */; };
+		CF9622571C22CF7C005CD703 /* Page_Count_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9622561C22CF7C005CD703 /* Page_Count_CalculatorUITests.swift */; };
+		CF9622651C231C6E005CD703 /* ButtonTap.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF9622641C231C6E005CD703 /* ButtonTap.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF9622481C22CF7B005CD703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF96222B1C22CF7B005CD703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF9622321C22CF7B005CD703;
+			remoteInfo = "Page Count Calculator";
+		};
+		CF9622531C22CF7C005CD703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF96222B1C22CF7B005CD703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF9622321C22CF7B005CD703;
+			remoteInfo = "Page Count Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF9622331C22CF7B005CD703 /* Page Count Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Page Count Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9622361C22CF7B005CD703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF9622381C22CF7B005CD703 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF96223B1C22CF7B005CD703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF96223D1C22CF7B005CD703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF9622401C22CF7B005CD703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF9622421C22CF7B005CD703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9622471C22CF7B005CD703 /* Page Count CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Page Count CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF96224B1C22CF7B005CD703 /* Page_Count_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Count_CalculatorTests.swift; sourceTree = "<group>"; };
+		CF96224D1C22CF7B005CD703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9622521C22CF7C005CD703 /* Page Count CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Page Count CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9622561C22CF7C005CD703 /* Page_Count_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Count_CalculatorUITests.swift; sourceTree = "<group>"; };
+		CF9622581C22CF7C005CD703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9622641C231C6E005CD703 /* ButtonTap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ButtonTap.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF9622301C22CF7B005CD703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9622441C22CF7B005CD703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF96224F1C22CF7C005CD703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF96222A1C22CF7B005CD703 = {
+			isa = PBXGroup;
+			children = (
+				CF9622351C22CF7B005CD703 /* Page Count Calculator */,
+				CF96224A1C22CF7B005CD703 /* Page Count CalculatorTests */,
+				CF9622551C22CF7C005CD703 /* Page Count CalculatorUITests */,
+				CF9622341C22CF7B005CD703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF9622341C22CF7B005CD703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF9622331C22CF7B005CD703 /* Page Count Calculator.app */,
+				CF9622471C22CF7B005CD703 /* Page Count CalculatorTests.xctest */,
+				CF9622521C22CF7C005CD703 /* Page Count CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF9622351C22CF7B005CD703 /* Page Count Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				CF9622641C231C6E005CD703 /* ButtonTap.wav */,
+				CF9622361C22CF7B005CD703 /* AppDelegate.swift */,
+				CF9622381C22CF7B005CD703 /* ViewController.swift */,
+				CF96223A1C22CF7B005CD703 /* Main.storyboard */,
+				CF96223D1C22CF7B005CD703 /* Assets.xcassets */,
+				CF96223F1C22CF7B005CD703 /* LaunchScreen.storyboard */,
+				CF9622421C22CF7B005CD703 /* Info.plist */,
+			);
+			path = "Page Count Calculator";
+			sourceTree = "<group>";
+		};
+		CF96224A1C22CF7B005CD703 /* Page Count CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF96224B1C22CF7B005CD703 /* Page_Count_CalculatorTests.swift */,
+				CF96224D1C22CF7B005CD703 /* Info.plist */,
+			);
+			path = "Page Count CalculatorTests";
+			sourceTree = "<group>";
+		};
+		CF9622551C22CF7C005CD703 /* Page Count CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF9622561C22CF7C005CD703 /* Page_Count_CalculatorUITests.swift */,
+				CF9622581C22CF7C005CD703 /* Info.plist */,
+			);
+			path = "Page Count CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF9622321C22CF7B005CD703 /* Page Count Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF96225B1C22CF7C005CD703 /* Build configuration list for PBXNativeTarget "Page Count Calculator" */;
+			buildPhases = (
+				CF96222F1C22CF7B005CD703 /* Sources */,
+				CF9622301C22CF7B005CD703 /* Frameworks */,
+				CF9622311C22CF7B005CD703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Page Count Calculator";
+			productName = "Page Count Calculator";
+			productReference = CF9622331C22CF7B005CD703 /* Page Count Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF9622461C22CF7B005CD703 /* Page Count CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF96225E1C22CF7C005CD703 /* Build configuration list for PBXNativeTarget "Page Count CalculatorTests" */;
+			buildPhases = (
+				CF9622431C22CF7B005CD703 /* Sources */,
+				CF9622441C22CF7B005CD703 /* Frameworks */,
+				CF9622451C22CF7B005CD703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF9622491C22CF7B005CD703 /* PBXTargetDependency */,
+			);
+			name = "Page Count CalculatorTests";
+			productName = "Page Count CalculatorTests";
+			productReference = CF9622471C22CF7B005CD703 /* Page Count CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF9622511C22CF7C005CD703 /* Page Count CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9622611C22CF7C005CD703 /* Build configuration list for PBXNativeTarget "Page Count CalculatorUITests" */;
+			buildPhases = (
+				CF96224E1C22CF7C005CD703 /* Sources */,
+				CF96224F1C22CF7C005CD703 /* Frameworks */,
+				CF9622501C22CF7C005CD703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF9622541C22CF7C005CD703 /* PBXTargetDependency */,
+			);
+			name = "Page Count CalculatorUITests";
+			productName = "Page Count CalculatorUITests";
+			productReference = CF9622521C22CF7C005CD703 /* Page Count CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF96222B1C22CF7B005CD703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jackson Wise";
+				TargetAttributes = {
+					CF9622321C22CF7B005CD703 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 4ZVB4E92Z2;
+					};
+					CF9622461C22CF7B005CD703 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CF9622321C22CF7B005CD703;
+					};
+					CF9622511C22CF7C005CD703 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CF9622321C22CF7B005CD703;
+					};
+				};
+			};
+			buildConfigurationList = CF96222E1C22CF7B005CD703 /* Build configuration list for PBXProject "Page Count Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF96222A1C22CF7B005CD703;
+			productRefGroup = CF9622341C22CF7B005CD703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF9622321C22CF7B005CD703 /* Page Count Calculator */,
+				CF9622461C22CF7B005CD703 /* Page Count CalculatorTests */,
+				CF9622511C22CF7C005CD703 /* Page Count CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF9622311C22CF7B005CD703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9622411C22CF7B005CD703 /* LaunchScreen.storyboard in Resources */,
+				CF96223E1C22CF7B005CD703 /* Assets.xcassets in Resources */,
+				CF9622651C231C6E005CD703 /* ButtonTap.wav in Resources */,
+				CF96223C1C22CF7B005CD703 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9622451C22CF7B005CD703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9622501C22CF7C005CD703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF96222F1C22CF7B005CD703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9622391C22CF7B005CD703 /* ViewController.swift in Sources */,
+				CF9622371C22CF7B005CD703 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9622431C22CF7B005CD703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF96224C1C22CF7B005CD703 /* Page_Count_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF96224E1C22CF7C005CD703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9622571C22CF7C005CD703 /* Page_Count_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF9622491C22CF7B005CD703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF9622321C22CF7B005CD703 /* Page Count Calculator */;
+			targetProxy = CF9622481C22CF7B005CD703 /* PBXContainerItemProxy */;
+		};
+		CF9622541C22CF7C005CD703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF9622321C22CF7B005CD703 /* Page Count Calculator */;
+			targetProxy = CF9622531C22CF7C005CD703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF96223A1C22CF7B005CD703 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF96223B1C22CF7B005CD703 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF96223F1C22CF7B005CD703 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9622401C22CF7B005CD703 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF9622591C22CF7C005CD703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF96225A1C22CF7C005CD703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF96225C1C22CF7C005CD703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jackson Wise (6TDM68B386)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jackson Wise (6TDM68B386)";
+				INFOPLIST_FILE = "Page Count Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shortshrift.pagecountcalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CF96225D1C22CF7C005CD703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jackson Wise (6TDM68B386)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jackson Wise (6TDM68B386)";
+				INFOPLIST_FILE = "Page Count Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shortshrift.pagecountcalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CF96225F1C22CF7C005CD703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Page Count CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Short-Shrift.Page-Count-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Page Count Calculator.app/Page Count Calculator";
+			};
+			name = Debug;
+		};
+		CF9622601C22CF7C005CD703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Page Count CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Short-Shrift.Page-Count-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Page Count Calculator.app/Page Count Calculator";
+			};
+			name = Release;
+		};
+		CF9622621C22CF7C005CD703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Page Count CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Short-Shrift.Page-Count-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Page Count Calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF9622631C22CF7C005CD703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Page Count CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Short-Shrift.Page-Count-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Page Count Calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF96222E1C22CF7B005CD703 /* Build configuration list for PBXProject "Page Count Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9622591C22CF7C005CD703 /* Debug */,
+				CF96225A1C22CF7C005CD703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF96225B1C22CF7C005CD703 /* Build configuration list for PBXNativeTarget "Page Count Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF96225C1C22CF7C005CD703 /* Debug */,
+				CF96225D1C22CF7C005CD703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF96225E1C22CF7C005CD703 /* Build configuration list for PBXNativeTarget "Page Count CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF96225F1C22CF7C005CD703 /* Debug */,
+				CF9622601C22CF7C005CD703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9622611C22CF7C005CD703 /* Build configuration list for PBXNativeTarget "Page Count CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9622621C22CF7C005CD703 /* Debug */,
+				CF9622631C22CF7C005CD703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF96222B1C22CF7B005CD703 /* Project object */;
+}
